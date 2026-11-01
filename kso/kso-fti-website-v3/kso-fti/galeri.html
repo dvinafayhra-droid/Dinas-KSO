@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeri | KSO FTI</title>
+  <meta name="description" content="Pusat informasi dan dokumentasi Biro Kesenian dan Olahraga (KSO) BEM KM FTI UNAND.">
+  <link rel="icon" href="images/logo-kso.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="container">
+    <a href="index.html" class="logo"><img src="images/logo-kso.jpg" alt="Logo KSO FTI" class="logo-img"><span>KSO FTI.</span></a>
+    <button class="burger" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="menu">
+      <li><a href="index.html">Beranda</a></li><li><a href="program.html">Program</a></li><li><a href="event.html">Event</a></li><li><a href="galeri.html" class="active">Galeri</a></li><li><a href="tentang.html">Tentang</a></li>
+      <li><a href="#" class="btn btn-dark">Masuk</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+
+<section class="hero small"><div class="container"><div><h1>Galeri</h1><p>Dokumentasi kegiatan KSO FTI.</p></div></div></section>
+<section><div class="container">
+    <div class="filter" data-target=".gitem"><button data-filter="semua" class=active>Semua</button><button data-filter="rukes">RUKES</button><button data-filter="ruko">RUKO</button><button data-filter="fti-cup">FTI CUP</button><button data-filter="fti-sport">FTI SPORT</button></div>
+    <div class="grid g3">
+      <div data-program="rukes" class="gitem"><div class="photo"><img src="images/rukes-1.jpg" alt="RUKES" loading="lazy" style="object-position:center 70%"></div></div>
+      <div data-program="ruko" class="gitem"><div class="photo alt"><img src="images/ruko-1.jpg" alt="RUKO" loading="lazy" style="object-position:center"></div></div>
+      <div data-program="fti-cup" class="gitem"><div class="photo" role="img" aria-label="Foto: FTI CUP"><!-- GANTI: <img src="images/NAMA-FOTO.jpg" alt="Foto: FTI CUP"> --><span>Foto: FTI CUP</span></div></div>
+      <div data-program="fti-sport" class="gitem"><div class="photo alt"><img src="images/fti-sport-1.jpg" alt="FTI SPORT" loading="lazy" style="object-position:center 75%"></div></div>
+      <div data-program="rukes" class="gitem"><div class="photo"><img src="images/rukes-2.jpg" alt="RUKES" loading="lazy" style="object-position:center 75%"></div></div>
+      <div data-program="fti-cup" class="gitem"><div class="photo alt" role="img" aria-label="Foto: FTI CUP"><!-- GANTI: <img src="images/NAMA-FOTO.jpg" alt="Foto: FTI CUP"> --><span>Foto: FTI CUP</span></div></div>
+      <div data-program="ruko" class="gitem"><div class="photo"><img src="images/ruko-2.jpg" alt="RUKO" loading="lazy" style="object-position:center 60%"></div></div>
+      <div data-program="fti-sport" class="gitem"><div class="photo alt"><img src="images/fti-sport-2.jpg" alt="FTI SPORT" loading="lazy" style="object-position:center 70%"></div></div>
+      <div data-program="fti-sport" class="gitem"><div class="photo"><img src="images/fti-sport-3.jpg" alt="FTI SPORT" loading="lazy" style="object-position:center"></div></div>
+      
+    </div>
+</div></section>
+</main>
+<footer>
+  <div class="container">
+    <div><a href="index.html" class="logo"><img src="images/logo-kso.jpg" alt="Logo KSO FTI" class="logo-img"><span>KSO FTI.</span></a><p>Biro Kesenian dan Olahraga (KSO)<br>BEM KM FTI Universitas Andalas</p></div>
+    <div><h4>Program</h4><ul><li><a href="rukes.html">RUKES</a></li><li><a href="ruko.html">RUKO</a></li><li><a href="fti-sport.html">FTI SPORT</a></li><li><a href="fti-cup.html">FTI CUP</a></li></ul></div>
+    <div><h4>Kontak</h4><ul><li>Instagram: <a href="https://instagram.com/ksofti">@ksofti</a></li><li>Email: kso@bemfti.unand.ac.id</li><li>Gedung FTI, Kampus Limau Manis</li></ul></div>
+  </div>
+  <p class="copy">&copy; 2026 Biro KSO BEM KM FTI UNAND</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

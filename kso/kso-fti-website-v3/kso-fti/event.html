@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Event | KSO FTI</title>
+  <meta name="description" content="Pusat informasi dan dokumentasi Biro Kesenian dan Olahraga (KSO) BEM KM FTI UNAND.">
+  <link rel="icon" href="images/logo-kso.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="container">
+    <a href="index.html" class="logo"><img src="images/logo-kso.jpg" alt="Logo KSO FTI" class="logo-img"><span>KSO FTI.</span></a>
+    <button class="burger" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="menu">
+      <li><a href="index.html">Beranda</a></li><li><a href="program.html">Program</a></li><li><a href="event.html" class="active">Event</a></li><li><a href="galeri.html">Galeri</a></li><li><a href="tentang.html">Tentang</a></li>
+      <li><a href="#" class="btn btn-dark">Masuk</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+
+<section class="hero small"><div class="container"><div><h1>Event</h1><p>Jadwal latihan dan kegiatan KSO FTI.</p></div></div></section>
+<section><div class="container">
+    <div class="filter" data-target=".event"><button data-filter="semua" class=active>Semua</button><button data-filter="rukes">RUKES</button><button data-filter="ruko">RUKO</button><button data-filter="fti-cup">FTI CUP</button><button data-filter="fti-sport">FTI SPORT</button></div>
+    <div class="events">
+      <article class="event" data-program="ruko">
+        <div class="date"><b>Rab</b><small>Mingguan</small></div>
+        <div><h3>Latihan Rutin Futsal</h3><p>KM Futsal / 777 Futsal</p></div>
+        <span class="tag">Latihan</span>
+      </article><article class="event" data-program="ruko">
+        <div class="date"><b>Kam</b><small>Mingguan</small></div>
+        <div><h3>Latihan Rutin Basket</h3><p>Ampang Arena Basketball / HBT</p></div>
+        <span class="tag">Latihan</span>
+      </article><article class="event" data-program="fti-cup">
+        <div class="date"><b>Nov</b><small>2026</small></div>
+        <div><h3>FTI CUP 2026</h3><p>Turnamen futsal &amp; basket antar angkatan dan jurusan - tempat menyesuaikan</p></div>
+        <span class="tag event-tag">Event</span>
+      </article><article class="event" data-program="fti-sport">
+        <div class="date"><b>Nov</b><small>Minggu 1</small></div>
+        <div><h3>FTI SPORT (edisi November)</h3><p>Lapangan Queen - untuk pengurus BEM KM FTI</p></div>
+        <span class="tag event-tag">Event</span>
+      </article><article class="event" data-program="rukes">
+        <div class="date"><b>Tari</b><small>Latihan</small></div>
+        <div><h3>Latihan Intensif RUKES</h3><p>3-4 minggu sebelum penampilan - PKM FTI</p></div>
+        <span class="tag">Latihan</span>
+      </article>
+    </div>
+</div></section>
+</main>
+<footer>
+  <div class="container">
+    <div><a href="index.html" class="logo"><img src="images/logo-kso.jpg" alt="Logo KSO FTI" class="logo-img"><span>KSO FTI.</span></a><p>Biro Kesenian dan Olahraga (KSO)<br>BEM KM FTI Universitas Andalas</p></div>
+    <div><h4>Program</h4><ul><li><a href="rukes.html">RUKES</a></li><li><a href="ruko.html">RUKO</a></li><li><a href="fti-sport.html">FTI SPORT</a></li><li><a href="fti-cup.html">FTI CUP</a></li></ul></div>
+    <div><h4>Kontak</h4><ul><li>Instagram: <a href="https://instagram.com/ksofti">@ksofti</a></li><li>Email: kso@bemfti.unand.ac.id</li><li>Gedung FTI, Kampus Limau Manis</li></ul></div>
+  </div>
+  <p class="copy">&copy; 2026 Biro KSO BEM KM FTI UNAND</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
